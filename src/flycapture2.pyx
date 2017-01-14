@@ -387,7 +387,7 @@ cdef class Context:
             "min_num_image_notifications": config.minNumImageNotifications,
             "grab_timeout": config.grabTimeout,
             "grab_mode": config.grabMode,
-            "high_performance_retrieve_buffer": config.highPerformanceRetrieveBuffer,
+            #"high_performance_retrieve_buffer": config.highPerformanceRetrieveBuffer,
             "isoch_bus_speed": config.isochBusSpeed,
             "async_bus_speed": config.asyncBusSpeed,
             "bandwidth_allocation": config.bandwidthAllocation,
@@ -408,7 +408,7 @@ cdef class Context:
         config.minNumImageNotifications = min_num_image_notifications
         config.grabTimeout = grab_timeout
         config.grabMode = grab_mode
-        config.highPerformanceRetrieveBuffer = high_performance_retrieve_buffer
+        #config.highPerformanceRetrieveBuffer = high_performance_retrieve_buffer
         config.isochBusSpeed = isoch_bus_speed
         config.asyncBusSpeed = async_bus_speed
         config.bandwidthAllocation = bandwidth_allocation

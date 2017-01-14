@@ -9,3 +9,4 @@
 /debian/*-stampdir
 /debian/*.log
 /debian/python-flycapture2
+notes/

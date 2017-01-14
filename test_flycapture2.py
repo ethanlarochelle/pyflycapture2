@@ -26,11 +26,11 @@ def test():
     print c.get_num_of_cameras()
     c.connect(*c.get_camera_from_index(0))
     print c.get_camera_info()
-    c.set_video_mode_and_frame_rate(fc2.VIDEOMODE_1280x960Y16,
-            fc2.FRAMERATE_7_5)
+    #c.set_video_mode_and_frame_rate(fc2.VIDEOMODE_1280x960Y16,
+    #         fc2.FRAMERATE_30)
     m, f = c.get_video_mode_and_frame_rate()
     print m, f
-    print c.get_video_mode_and_frame_rate_info(m, f)
+    #print c.get_video_mode_and_frame_rate_info(m, f)
     print c.get_property_info(fc2.FRAME_RATE)
     p = c.get_property(fc2.FRAME_RATE)
     print p
